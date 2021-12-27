@@ -1,0 +1,235 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    width: 1024px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: #8FA6AC;
+    display: flex;
+    
+}
+
+.header__logo{
+    margin-top: 41px;
+    margin-left: 57px;
+}
+
+.header__cart{
+    margin-top: 57px;
+    float: right;
+    margin-right: 57px;
+}
+
+.menu {
+    float: center;
+    padding-top: 69px;
+    margin: 0 auto;
+}
+
+
+.menu__list {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.menu__link {
+    color: #f0f0f0;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu__link:hover{
+    color:#fff;
+}
+
+.menu__link__active {
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Слайдер */
+.slider {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+
+    background: url(../img/slider.jpg)
+}
+
+.pagination {
+    padding-top: 372px;
+    padding-left: 452px;
+    
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: .5;
+
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.circle:hover{
+    opacity: .8;
+}
+
+.circle__active {
+    opacity: 1;
+}
+
+/* Товары */
+.products{
+    margin-top: 30px;
+    margin-left: 57px;
+}
+
+.products__header{
+    font-size: 18px;
+}
+
+.products__catalog{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.catalog__1{
+    display: flex;
+}
+
+.products__card{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.products__card:hover{
+    opacity: .9;
+}
+
+/* О нас */
+.about{
+    margin-top: 20px;
+}
+
+.style__h1{
+    font-size: 18px;
+    font-weight: 700;
+    
+    margin-bottom: 24px;
+}
+
+.about h2{
+    font-size:14px;
+    font-weight: 400;
+}
+
+/* Подвал */
+.footer{
+    height: 270px;
+    width: 100%;
+
+    background-color: #8FA6AC;
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer__text__block{
+    margin-left: 57px;
+    margin-top: 51px;
+}
+
+.footer__menu{
+    list-style-type: none;
+}
+
+.footer__menu__list{
+    margin-bottom: 10px;
+}
+
+.footer__menu a {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer__text__block p {
+    margin-top: 42px;
+}
+
+.footer__map{
+    padding-top: 31px;
+    margin-left: 223px;
+
+    width: 463px;
+    height: 200px;
+}
+
+/* Товары */
+.catalog{
+    padding-top: 20px;
+    width: 920px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.products__card__big__changus{
+    margin-right: 15px;
+}
+
+/* Контакты */
+.contacts{
+    padding-top: 20px;
+    margin-bottom: 150px;
+}
+
+/* FAQ */
+.faq {
+    margin-top: 20px;
+    margin-bottom: 450px;
+    margin-left: 51px;
+}
+
+/* Корзина */
+.cart{
+    padding-top: 20px;
+    margin-left: 51px;
+    margin-bottom: 550px;
+}
+
+.cart__card{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.cart__card a,
+.cart__card p{
+    margin: 0 auto;
+    margin-top: 5px;
+}
